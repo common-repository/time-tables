@@ -1,0 +1,41 @@
+span.codott-timetable-content-mob {
+    display: none;
+}
+
+.codott-timetable-content{
+	display: block;
+	padding: 5px;
+	background-color: orange;
+	color: #000;
+}
+
+.codott_table td, .codott_table th{
+	border: 1px solid #e1e1e1;
+}
+
+.codott-col-pad{
+	padding: 0;
+}
+
+@media(max-width: 500px){
+	.responsive-table{
+		overflow-x: auto;
+	}
+	span.codott-timetable-content {
+	    display: none;
+	}
+	span.codott-timetable-content-mob {
+	    display: block;
+	}
+	.codott_table thead{
+		display: none;
+	}
+	.codott_table td{
+		display: block;
+		min-height: 20px;
+		border: none;
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	
+}
